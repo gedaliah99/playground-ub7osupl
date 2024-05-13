@@ -2,6 +2,13 @@
 
 In this playground we will write introduce 5 programs that will convert a string into Title Case, PascalCase, snake_case, camelCase and Kebab-Case.
 
+Here are the three common built-in functions that will be used to implement each program:
+1. ```.title()```
+2. ```.lower()```
+3. ```.replace()```
+
+
+
 ## Program 1: "Title Case"
 This is the simplest case to implement. Title Case is written where the first letter of each word is capitalised.
 Luckily, Python has a built in function for this:
