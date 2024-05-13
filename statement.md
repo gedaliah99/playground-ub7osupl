@@ -2,10 +2,12 @@
 
 In this playground we will write introduce 5 programs that will convert a string into Title Case, PascalCase, snake_case, camelCase and Kebab-Case.
 
-Here are the three common built-in functions that will be used to implement each program:
+Here are some of the Python built-in functions we will be using:
 1. ```.title()```
 2. ```.lower()```
 3. ```.replace()```
+4. ```.split()```
+5. ```.join()```
 
 
 
@@ -70,3 +72,16 @@ def kebab_case(string):
 The result of this code will be "this-is-a-string."
 
 ### Conclusion
+In this tutorial we have created 5 programs to manipulate string into "Title Case", "PascalCase", "snake_case", "camelCase" and "kebab-case".
+
+Here are some links to learn more of the built-in functions we mentioned previously:
+https://www.w3schools.com/python/ref_string_title.asp
+https://www.w3schools.com/python/ref_string_lower.asp
+https://www.w3schools.com/python/ref_string_replace.asp
+https://www.w3schools.com/python/ref_string_split.asp
+https://www.w3schools.com/python/ref_string_join.asp
+
+Please feel free to use this code in your clashes or programs.
+
+Happy Coding,
+Code-Parser
