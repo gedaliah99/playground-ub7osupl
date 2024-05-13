@@ -53,8 +53,11 @@ We will define our own function for this:
 ```python runnable
 string = "this is a string."
 
-def camelCase(string):
-    return "".join(t.title() for t in s.split())
+def camelCase(text):
+    s = re.sub(r"[_-]+", " ", text)
+    words = s.split()
+    camel_words = [words[0].lower()] + [word.capitalize() for word in words[1:]]
+    return "".join(camel_words)
 ```
 The result of this code will be: "thisIsAString."
 
