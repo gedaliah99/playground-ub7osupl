@@ -76,9 +76,13 @@ In this tutorial we have created 5 programs to manipulate string into "Title Cas
 
 Here are some links to learn more of the built-in functions we mentioned previously:
 https://www.w3schools.com/python/ref_string_title.asp
+
 https://www.w3schools.com/python/ref_string_lower.asp
+
 https://www.w3schools.com/python/ref_string_replace.asp
+
 https://www.w3schools.com/python/ref_string_split.asp
+
 https://www.w3schools.com/python/ref_string_join.asp
 
 Please feel free to use this code in your clashes or programs.
