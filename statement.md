@@ -44,3 +44,29 @@ def snake_case(string):
     return string
 ```
 The result of this code will be: "this_is_a_string."
+
+## Program 4: "camelCase"
+When we implement camelCase, you might notice that it is similar to "PascalCase". The code is similar, but we leave the first letter of the first word in lowercase.
+We will define our own function for this:
+```
+string = "this is a string."
+
+def camelCase(string):
+    return "".join(t.title() for t in s.split())
+```
+The result of this code will be: "thisIsAString."
+
+## Program 5: "kebab-case"
+Similar to snake_case, we can also write strings in kebab-case... the only exception is that instead of using underscores to replace spaces, we use hyphens.
+We will define our own function for this:
+```
+string = "this is a string."
+
+def kebab_case(string):
+    string = string.lower()
+    string = string.replace(" ","-")
+    return string
+```
+The result of this code will be "this-is-a-string."
+
+### Conclusion
