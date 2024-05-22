@@ -55,6 +55,8 @@ The result of this code will be: "this_is_a_string."
 When we implement camelCase, you might notice that it is similar to "PascalCase". The code is similar, but we leave the first letter of the first word in lowercase.
 We will define our own function for this:
 ```python runnable
+import re
+
 string = "this is a string."
 
 def camelCase(text):
