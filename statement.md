@@ -31,6 +31,8 @@ def PascalCase(string):
     string = string.title()
     string = string.replace(" ","")
     return string
+
+print(PascalCase(string))
 ```
 The result of this code will be: "ThisIsAString."
 
@@ -44,6 +46,8 @@ def snake_case(string):
     string = string.lower()
     string = string.replace(" ","_")
     return string
+
+print(snake_case(string))
 ```
 The result of this code will be: "this_is_a_string."
 
@@ -58,6 +62,8 @@ def camelCase(text):
     words = s.split()
     camel_words = [words[0].lower()] + [word.capitalize() for word in words[1:]]
     return "".join(camel_words)
+
+print(camelCase(string))
 ```
 The result of this code will be: "thisIsAString."
 
@@ -71,6 +77,8 @@ def kebab_case(string):
     string = string.lower()
     string = string.replace(" ","-")
     return string
+
+print(kebab_case(string))
 ```
 The result of this code will be "this-is-a-string."
 
